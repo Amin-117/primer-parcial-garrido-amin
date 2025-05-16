@@ -6,12 +6,11 @@ body {
 
 /* ==== Navbar ==== */
 .navbar-nav .nav-link:hover {
-  color: #a600e7;
+  color: #ffc75f;
 }
-
 /* ==== Header ==== */
 header {
-  background-color: #7400a1;
+  background-color: #bb7a02;
 }
 
 header h1 {
@@ -26,14 +25,21 @@ article {
 /* ==== Títulos y subtítulos ==== */
 article h2,
 article h3 {
-  color: #7400a1;
+  color:  #bb7a02;
   font-weight: bold;
 }
 
-/* ==== Párrafos ==== */
-article p {
-  color: #49105f;
+/* ==== Labels ==== */
+article label {
+  color: #292421;
   font-size: 1rem;
+}
+
+/* ==== Formularios ==== */
+input.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #dacecf;
 }
 
 /* ==== Botones ==== */
@@ -45,8 +51,12 @@ article p {
 
 /* ==== Footer ==== */
 footer {
-  background-color: #212529;
+  background-color: #bb7a02;
   text-align: center;
   padding: 15px 0;
   margin-top: auto;
+}
+
+footer p {
+  color: #f8f9fa;
 }
