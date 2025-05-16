@@ -26,7 +26,7 @@ article {
 /* ==== Títulos y subtítulos ==== */
 article h2,
 article h3 {
-  color: #442c00;
+  color:  #bb7a02;
   font-weight: bold;
 }
 
@@ -52,8 +52,12 @@ input.form-control {
 
 /* ==== Footer ==== */
 footer {
-  background-color: #212529;
+  background-color: #bb7a02;
   text-align: center;
   padding: 15px 0;
   margin-top: auto;
+}
+
+footer p {
+  color: #292421;
 }
