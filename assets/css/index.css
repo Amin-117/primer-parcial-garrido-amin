@@ -5,7 +5,7 @@ body {
 }
 
 /* ==== Navbar ==== */
-.navbar {
+.navbar-nav #navbarNav {
   color: #00245a;
 }
 
@@ -42,4 +42,7 @@ footer {
   text-align: center;
   padding: 15px 0;
   margin-top: auto;
+}
+footer p {
+  color: #faf8f8;
 }
