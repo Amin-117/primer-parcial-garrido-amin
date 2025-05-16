@@ -5,7 +5,7 @@ body {
 }
 
 /* ==== Navbar ==== */
-.navbar-nav #navbarNav {
+.navbar-nav .nav-link:hover {
   color: #00245a;
 }
 
